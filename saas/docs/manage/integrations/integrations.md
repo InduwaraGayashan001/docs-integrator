@@ -12,9 +12,21 @@ If your integration is exposed as an API, see [API Management](api-management/ap
 
 1. Log in to [WSO2 Cloud](https://console.devant.dev). The default project opens automatically.
 2. On the project home, all integrations within the project are listed.
-    ![Project Overview](/img/deploy/cloud/deploy-from-editor/project-page-wso2-cloud.png)
+    <ThemedImage
+        alt="Project Overview"
+        sources={{
+            light: useBaseUrl('/img/deploy/cloud/deploy-from-editor/project-page-wso2-cloud.png'),
+            dark: useBaseUrl('/img/deploy/cloud/deploy-from-editor/project-page-wso2-cloud.png'),
+        }}
+    />
 3. Click an integration to open its overview page, where you can view its build status, deployment status, and configuration options.
-    ![Integration Overview](/img/manage/cloud/integrations/integration-overview.png)
+    <ThemedImage
+        alt="Integration Overview"
+        sources={{
+            light: useBaseUrl('/img/manage/cloud/integrations/integration-overview.png'),
+            dark: useBaseUrl('/img/manage/cloud/integrations/integration-overview.png'),
+        }}
+    />
 
 To work with a different project, use the project navigator at the top of the console to switch between projects.
 
